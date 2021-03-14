@@ -185,6 +185,5 @@
 }
 
 .reply:focus-within {
-  bottom: -50px;
   transform: translateY(80px);
 }
