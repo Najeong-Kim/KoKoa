@@ -1,4 +1,5 @@
-#no-mobile {
+#no-mobile,
+#too-small {
   position: absolute;
   z-index: 99;
   height: 100vh;
@@ -20,6 +21,13 @@
   }
 }
 
-#no-mobile span {
+@media screen and (min-width: 450px) and (min-height: 720px) {
+  #too-small {
+    display: none;
+  }
+}
+
+#no-mobile span,
+#too-small span {
   font-weight: 600;
 }
