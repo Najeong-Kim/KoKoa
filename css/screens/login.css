@@ -32,22 +32,27 @@
 
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.2);
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--blue);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
   cursor: pointer;
   padding: 20px 0px;
-  border-radius: 5px;
+  margin-top: 15%;
+  color: white;
+  font-size: 30px;
+  width: 80%;
 }
 
 #login-form a {
@@ -55,4 +60,16 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.login-form__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.login-form__input img {
+  width: 100%;
 }
