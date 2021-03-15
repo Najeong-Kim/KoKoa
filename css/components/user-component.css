@@ -52,3 +52,18 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__chat {
+  margin: 20px 0px;
+}
+
+.user-component__text-together {
+  display: flex;
+  align-items: flex-end;
+}
+
+.user-component__text-together span {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  font-size: 20px; 
+}
