@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #8CC4DA;
-  height: 110vh;
+  height: 120vh;
 }
 
 #chat-screen .alt-header,
@@ -55,7 +55,8 @@
   margin-bottom: 25px;
 }
 
-.message-row img {
+.message-row img,
+.message-row__zoo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -188,4 +189,17 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+.message__noread {
+  color: var(--yellow);
+  margin-bottom: 1px;
+  margin-left: 1px;
+  font-size: 13px;
+}
+
+.message__small {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
