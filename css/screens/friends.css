@@ -40,7 +40,10 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-image: url('../../images/field.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
   width: 100vw;
   height: 100vh;
