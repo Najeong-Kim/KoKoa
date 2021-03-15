@@ -7,7 +7,7 @@
   top: 0;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 40px;
   background-image: url('../../images/field.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,4 +18,8 @@
   #no-mobile {
     display: none;
   }
+}
+
+#no-mobile span {
+  font-weight: 600;
 }
